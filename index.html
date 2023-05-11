@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Urban heat in Arnhem</title>
     <link rel="stylesheet" href="style.css" />
+    
     <style>
       .map-container {
         display: flex;
@@ -12,34 +13,50 @@
         justify-content: center;
         margin-bottom: 50px;
       }
+      
       .text-container {
         align-items: center;
         width: 750px;
         max-width: 100%;
         margin: 0 auto;
       }
-      .title {
-        font-family: Arial, sans-serif;
-        font-size: 36px;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 25px;
+      
+      .title-container {
         padding: 10px;
         background-color: #ccc;
         border: 1px solid #999;
       }
+      
+      .title {
+        font-family: Arial, sans-serif;
+        font-size: 36px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+      }
+      
       .subtitle {
         font-family: Arial, sans-serif;
         font-size: 18px;
         color: #333;
-        margin-top: 10px;
         text-align: center;
+        margin: 0;
+        padding: 0;
       }
+      
       .p {
         text-align: left;
         text-align: justify;
         margin-bottom: 50px;
       }
+    </style>
+  </head>
+  
+  <body>
+    <div class="title-container">
+      <h1 class="title">Urban heat in Arnhem</h1>
+      <p class="subtitle">a webpage on urban heat problematics by Casper Kerckhoff for the MSc MADE course: Data Visualization.</p>
+    </div>
     </style>
   </head>
   
@@ -51,14 +68,13 @@
       <p style="font-family: Arial, sans-serif; font-size: 14px; text-align: left; text-align: justify;">Global warming has been studied extensively over the past decades and it is evident that it has been and will keep leading to an increasing number of heat waves, that are also progressing in duration and intensity (Katavoutas & Founda, 2019; Perkins-Kirkpatrick & Lewis, 2020; Zhang et al., 2020). </p>
       <p style="font-family: Arial, sans-serif; font-size: 14px; text-align: left; text-align: justify;">Urban populations have a higher chance to experience problems caused by heat waves than rural populations because urban climate characteristics and urban heat islands intensify and lengthen the effects of heat waves (Katavoutas & Founda, 2019; Lemonsu et al., 2015; Venter et al., 2020). </p>
       <p style="font-family: Arial, sans-serif; font-size: 14px; text-align: left; text-align: justify;">Health risk caused by heat is called heat stress. Heat stress can lead to different negative effects that put the human body under pressure. These effects include heat cramps, heat exhaustion, heat stroke, and can even be fatal (Brücker, 2005). </p>
-      <p style="font-family: Arial, sans-serif; font-size: 14px; text-align: left; text-align: justify;">Therefore, one should be cautious with going outside during heat waves, as an individual you could try to take
+      <p style="font-family: Arial, sans-serif; font-size: 14px; text-align: left; text-align: justify;">as an individual you could try to take cooler routes to your destinations and the municipality could try to mitigate the heat as much as possible through greenery, canopy and by improving wind flow in the city. </p>
       <p style="font-family: Arial, sans-serif; font-size: 20px; margin-top: 50px; text-align: justify;">The map below shows heat stress for pedestrians in Arnhem on a hot summer day.</p>     
     </div>
     </div>
-  
 
-      <div class="map-container">
-        <iframe width="750" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="PET_Arnhem" src="//wur-girs.maps.arcgis.com/apps/Embed/index.html?webmap=dad1f87150eb45a8a15ec88d231384e0&extent=5.7844,51.9312,6.0324,52.0181&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legend=true&basemap_toggle=true&alt_basemap=dark-gray&disable_scroll=false&theme=light"></iframe>
+     <div class="map-container">
+       <iframe width="750" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="PET_Arnhem" src="//wur-girs.maps.arcgis.com/apps/Embed/index.html?webmap=dad1f87150eb45a8a15ec88d231384e0&extent=5.7844,51.9312,6.0324,52.0181&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legend=true&basemap_toggle=true&alt_basemap=dark-gray&disable_scroll=false&theme=light"></iframe>
     </div>
   </body>
 </html>
