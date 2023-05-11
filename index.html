@@ -5,14 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      /* Add the following styles to center the map container */
+      .map-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+    </style>
   </head>
   <body>
-   <div style="background-color: #333; color: #fff; padding: 0.25px; text-align:center;">
+    <div style="background-color: #333; color: #fff; padding: 0.25px; text-align:center;">
       <p style="font-family: Arial, sans-serif; font-size: 28px; text-align:center;">Heat stress in Arnhem</p>
-   </div>
+    </div>
     <p style="font-family: Arial, sans-serif;font-size: 20px; text-align:center;">The map below shows heat stress for pedestrians in Arnhem on a hot summer day.</p>
-          <p align="center"><style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 50%; height: 50%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="map-container">
-  <iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="PET_Arnhem" src="//wur-girs.maps.arcgis.com/apps/Embed/index.html?webmap=dad1f87150eb45a8a15ec88d231384e0&extent=5.7844,51.9312,6.0324,52.0181&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legend=true&basemap_toggle=true&alt_basemap=dark-gray&disable_scroll=false&theme=light"></iframe>
-</div></p>
+    <!-- Add the map container with the new CSS class -->
+    <div class="map-container">
+      <iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="PET_Arnhem" src="//wur-girs.maps.arcgis.com/apps/Embed/index.html?webmap=dad1f87150eb45a8a15ec88d231384e0&extent=5.7844,51.9312,6.0324,52.0181&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legend=true&basemap_toggle=true&alt_basemap=dark-gray&disable_scroll=false&theme=light"></iframe>
+    </div>
   </body>
 </html>
