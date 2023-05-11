@@ -5,19 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    
-  </head>
-  <body>
-    <div style="background-color: #333; color: #fff; padding: 0.25px; text-align:center;">
-      <p style="font-family: Arial, sans-serif; font-size: 28px; text-align:center;">Heat stress in Arnhem</p>
-    </div>
-    <img src="https://gosmartbricks.com/wp-content/uploads/2021/06/urban-healt-island-effect-1-810x486.png" alt="Urban Heat Island Effect" width="540" height="324">
-    <p style="font-family: Arial, sans-serif;font-size: 20px; text-align:center;">Here's some information about the urban heat island effect...</p>
     <style>
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .map-container {
         display: flex;
         justify-content: center;
       }
+      img {
+        float: left;
+        margin-right: 20px;
+      }
     </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <img src="https://gosmartbricks.com/wp-content/uploads/2021/06/urban-healt-island-effect-1-810x486.png" alt="Urban Heat Island Effect" width="540" height="324" />
+      <p style="font-family: Arial, sans-serif;font-size: 20px;">Here's some information about the urban heat island effect...</p>
+    </div>
     <p style="font-family: Arial, sans-serif;font-size: 20px; text-align:center;">The map below shows heat stress for pedestrians in Arnhem on a hot summer day.</p>
     <div class="map-container">
       <iframe width="750" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="PET_Arnhem" src="//wur-girs.maps.arcgis.com/apps/Embed/index.html?webmap=dad1f87150eb45a8a15ec88d231384e0&extent=5.7844,51.9312,6.0324,52.0181&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legend=true&basemap_toggle=true&alt_basemap=dark-gray&disable_scroll=false&theme=light"></iframe>
